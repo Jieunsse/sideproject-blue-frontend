@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import App from '../App.tsx';
+import MainPage from '../page/MainPage.tsx';
 import LoginPage from '../page/LoginPage';
 import BoardPage from '../page/BoardPage';
 import ServiceTwoPage from '../page/ServiceTwoPage';
@@ -8,7 +8,7 @@ import ServiceThirdPage from '../page/ServiceThirdPage';
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <MainPage />,
   },
   {
     path: '/login',
