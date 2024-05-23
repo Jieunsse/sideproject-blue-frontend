@@ -6,9 +6,9 @@ import {
   Link,
   Button,
 } from '@nextui-org/react';
-import Blue from '../assets/Blue.svg?react';
+import Blue from '@/assets/Blue.svg?react';
 import { useSelector, useDispatch } from 'react-redux';
-import { makeTrue, setClickedItem } from '../store/stateSlice.ts';
+import { makeTrue, setClickedItem } from '@/store/stateSlice.ts';
 
 const NavbarUI = () => {
   const dispatch = useDispatch();

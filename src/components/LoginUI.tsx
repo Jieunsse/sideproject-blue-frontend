@@ -1,5 +1,5 @@
 import { Input, Button } from '@nextui-org/react';
-import Blue from '../assets/Blue.svg?react';
+import Blue from '@/assets/Blue.svg?react';
 import { useState } from 'react';
 
 const LoginUI = () => {

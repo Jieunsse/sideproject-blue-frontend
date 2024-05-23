@@ -1,4 +1,4 @@
-import LoginUI from '../component/LoginUI.tsx';
+import LoginUI from '@/components/LoginUI.tsx';
 
 const LoginPage = () => {
   return <LoginUI />;

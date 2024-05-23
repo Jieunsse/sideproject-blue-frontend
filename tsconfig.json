@@ -19,8 +19,32 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Path alias */
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@/components/*": ["components/*"],
+      "@/assets/*": ["assets/*"],
+      "@/pages/*": ["pages/*"],
+      "@/router/*": ["router/*"],
+      "@store/*": ["store/*"],
+    }
   },
   "include": ["src", "svg.d.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

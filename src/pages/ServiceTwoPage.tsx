@@ -1,4 +1,4 @@
-import NavbarUI from '../component/NavbarUI.tsx';
+import NavbarUI from '@/components/NavbarUI.tsx';
 
 const ServiceTwoPage = () => {
   return (
